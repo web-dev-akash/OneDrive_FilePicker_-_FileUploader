@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.mainDiv {
+  width: max-content;
+}
+h1 {
+  font-size: 45px;
+}
+.buttonsDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+button {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background-color: #181818;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #393939;
+}
+.filePicker {
+  position: absolute;
+  width: max-content;
+  top: 100px;
+  z-index: 1;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.filePicker h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.filePicker a,
+span {
+  font-size: 35px;
+  font-weight: 800;
+}
+.filePicker a {
+  text-decoration: none;
+  color: royalblue;
+}
